@@ -1,10 +1,10 @@
 using Avalonia;
 using Avalonia.Controls.ApplicationLifetimes;
 using Avalonia.Markup.Xaml;
-using Sandbox.ViewModels;
-using Sandbox.Views;
+using AvaloniaDataGridScrollBinding.ViewModels;
+using AvaloniaDataGridScrollBinding.Views;
 
-namespace Sandbox;
+namespace AvaloniaDataGridScrollBinding;
 
 public partial class App : Application
 {

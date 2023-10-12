@@ -8,7 +8,7 @@ using Avalonia.Input;
 using Avalonia.Interactivity;
 using Avalonia.Xaml.Interactivity;
 
-namespace Sandbox.Behaviors;
+namespace AvaloniaDataGridScrollBinding.Behaviors;
 
 public class DataGridSyncScrollBehavior : Behavior<DataGrid>
 {

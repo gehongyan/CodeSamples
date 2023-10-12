@@ -1,7 +1,7 @@
 ﻿using System.Collections.ObjectModel;
 using System.Linq;
 
-namespace Sandbox.ViewModels;
+namespace AvaloniaDataGridScrollBinding.ViewModels;
 
 public class MainWindowViewModel : ViewModelBase
 {

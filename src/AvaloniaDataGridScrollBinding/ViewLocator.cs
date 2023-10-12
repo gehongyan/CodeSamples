@@ -1,9 +1,9 @@
 using System;
 using Avalonia.Controls;
 using Avalonia.Controls.Templates;
-using Sandbox.ViewModels;
+using AvaloniaDataGridScrollBinding.ViewModels;
 
-namespace Sandbox;
+namespace AvaloniaDataGridScrollBinding;
 
 public class ViewLocator : IDataTemplate
 {

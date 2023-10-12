@@ -1,6 +1,6 @@
 ﻿using ReactiveUI;
 
-namespace Sandbox.ViewModels;
+namespace AvaloniaDataGridScrollBinding.ViewModels;
 
 public class ViewModelBase : ReactiveObject
 {

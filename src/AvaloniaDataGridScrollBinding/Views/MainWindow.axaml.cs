@@ -1,6 +1,6 @@
 using Avalonia.Controls;
 
-namespace Sandbox.Views;
+namespace AvaloniaDataGridScrollBinding.Views;
 
 public partial class MainWindow : Window
 {
