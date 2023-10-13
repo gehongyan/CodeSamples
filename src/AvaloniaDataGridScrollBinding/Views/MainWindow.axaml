@@ -16,8 +16,13 @@
                   Height="200"
                   Width="300"
                   FrozenColumnCount="1"
-                  HorizontalAlignment="Left"
-                  VerticalScrollBarVisibility="Hidden">
+                  HorizontalAlignment="Left">
+            <DataGrid.Styles>
+                <Style Selector="DataGrid /template/ ScrollBar#PART_VerticalScrollbar">
+                    <Setter Property="IsHitTestVisible" Value="False" />
+                    <Setter Property="Opacity" Value="0" />
+                </Style>
+            </DataGrid.Styles>
             <DataGrid.Columns>
                 <DataGridTextColumn Header="Name" Binding="{Binding Name}" />
                 <DataGridTextColumn Header="Name" Binding="{Binding Name}" />
