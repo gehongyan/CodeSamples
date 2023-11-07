@@ -23,7 +23,7 @@
                 <Rectangle Width="200" Height="200" Fill="Red" />
             </dialogHostAvalonia:DialogHost.DialogContent>
             <StackPanel Spacing="4">
-                <Button Command="{Binding RelativeSource={RelativeSource FindAncestor, AncestorType=dialogHostAvalonia:DialogHost}, Path=OpenDialogCommand}"
+                <Button Command="{Binding $parent[dialogHostAvalonia:DialogHost].OpenDialogCommand}"
                         Content="Show"/>
                 <Button Command="{Binding ShowDialog}"
                         Content="Show"/>
