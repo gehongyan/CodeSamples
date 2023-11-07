@@ -17,12 +17,17 @@
     </Design.DataContext>
 
     <Panel>
-        <dialogHostAvalonia:DialogHost IsOpen="{Binding IsDialogShown}">
+        <dialogHostAvalonia:DialogHost IsOpen="{Binding IsDialogShown, Mode=TwoWay}"
+                                       CloseOnClickAway="True">
             <dialogHostAvalonia:DialogHost.DialogContent>
                 <Rectangle Width="200" Height="200" Fill="Red" />
             </dialogHostAvalonia:DialogHost.DialogContent>
-            <Button Command="{Binding RelativeSource={RelativeSource FindAncestor, AncestorType=dialogHostAvalonia:DialogHost}, Path=OpenDialogCommand}"
-                    Content="Show"/>
+            <StackPanel Spacing="4">
+                <Button Command="{Binding RelativeSource={RelativeSource FindAncestor, AncestorType=dialogHostAvalonia:DialogHost}, Path=OpenDialogCommand}"
+                        Content="Show"/>
+                <Button Command="{Binding ShowDialog}"
+                        Content="Show"/>
+            </StackPanel>
         </dialogHostAvalonia:DialogHost>
     </Panel>
 
