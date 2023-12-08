@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StjTrimming", "src\StjTrimm
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DialogHost", "src\DialogHost\DialogHost.csproj", "{B4730AE6-4363-417F-ACEC-8ECB00384168}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Span", "src\Span\src\Span\Span.csproj", "{D9BC31AF-19E1-4095-9D9C-701E8CB28D99}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,6 +31,10 @@ Global
 		{B4730AE6-4363-417F-ACEC-8ECB00384168}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B4730AE6-4363-417F-ACEC-8ECB00384168}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B4730AE6-4363-417F-ACEC-8ECB00384168}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9BC31AF-19E1-4095-9D9C-701E8CB28D99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9BC31AF-19E1-4095-9D9C-701E8CB28D99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9BC31AF-19E1-4095-9D9C-701E8CB28D99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9BC31AF-19E1-4095-9D9C-701E8CB28D99}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 	EndGlobalSection
